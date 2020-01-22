@@ -23,7 +23,7 @@ public class Terrain {
     }
   }
 
-  public void Update() {
+  public void update() {
     for (Agent agent : agents) {
       agent.jump(vertices, fractions);
     }
